@@ -1,5 +1,0 @@
-C:\Code\MyTestAspNetProject\Model\bin\Debug\Model.dll
-C:\Code\MyTestAspNetProject\Model\bin\Debug\Model.pdb
-C:\Code\MyTestAspNetProject\Model\obj\Debug\Model.dll
-C:\Code\MyTestAspNetProject\Model\obj\Debug\Model.pdb
-C:\Code\MyTestAspNetProject\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
