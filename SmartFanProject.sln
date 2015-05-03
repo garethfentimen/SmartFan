@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{950C3882-E200-4B5C-ABCA-E99331B9C2AD}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{8B894BC0-E5A4-4D6F-BF7A-CF9B9B85116A}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\MyTestAspNetProject-WAWS-dev.json = PublishScripts\Configurations\MyTestAspNetProject-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specs", "Specs\Specs.csproj", "{CFC36456-B7D7-4FAC-892F-6116EDF09225}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{7BF96692-CC42-4854-A867-A1BD42D9EA6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartFan", "SmartWatchIdea\SmartFan.csproj", "{9C3223E7-47C1-4C11-80F9-1F1C91934807}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFC36456-B7D7-4FAC-892F-6116EDF09225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC36456-B7D7-4FAC-892F-6116EDF09225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC36456-B7D7-4FAC-892F-6116EDF09225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC36456-B7D7-4FAC-892F-6116EDF09225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BF96692-CC42-4854-A867-A1BD42D9EA6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF96692-CC42-4854-A867-A1BD42D9EA6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF96692-CC42-4854-A867-A1BD42D9EA6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF96692-CC42-4854-A867-A1BD42D9EA6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C3223E7-47C1-4C11-80F9-1F1C91934807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C3223E7-47C1-4C11-80F9-1F1C91934807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C3223E7-47C1-4C11-80F9-1F1C91934807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C3223E7-47C1-4C11-80F9-1F1C91934807}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B894BC0-E5A4-4D6F-BF7A-CF9B9B85116A} = {950C3882-E200-4B5C-ABCA-E99331B9C2AD}
+	EndGlobalSection
+EndGlobal

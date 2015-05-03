@@ -1,0 +1,15 @@
+C:\Code\MyTestAspNetProject\Specs\obj\Debug\Specs.csprojResolveAssemblyReference.cache
+C:\Code\MyTestAspNetProject\Specs\bin\Debug\Specs.dll
+C:\Code\MyTestAspNetProject\Specs\bin\Debug\Specs.pdb
+C:\Code\MyTestAspNetProject\Specs\bin\Debug\FluentAssertions.dll
+C:\Code\MyTestAspNetProject\Specs\bin\Debug\Model.dll
+C:\Code\MyTestAspNetProject\Specs\bin\Debug\FluentAssertions.Core.dll
+C:\Code\MyTestAspNetProject\Specs\bin\Debug\Model.pdb
+C:\Code\MyTestAspNetProject\Specs\bin\Debug\FluentAssertions.pdb
+C:\Code\MyTestAspNetProject\Specs\bin\Debug\FluentAssertions.xml
+C:\Code\MyTestAspNetProject\Specs\bin\Debug\FluentAssertions.Core.pdb
+C:\Code\MyTestAspNetProject\Specs\bin\Debug\FluentAssertions.Core.xml
+C:\Code\MyTestAspNetProject\Specs\obj\Debug\Specs.dll
+C:\Code\MyTestAspNetProject\Specs\obj\Debug\Specs.pdb
+C:\Code\MyTestAspNetProject\Specs\bin\Debug\nunit.framework.dll
+C:\Code\MyTestAspNetProject\Specs\bin\Debug\nunit.framework.xml
