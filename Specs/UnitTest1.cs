@@ -2,17 +2,12 @@
 {
     using Model;
     using System;
-
-    using FluentAssertions;
-
-    using Microsoft.VisualStudio.TestTools.UnitTesting;
-
     using NUnit.Framework;
 
-    [TestClass]
-    public class UnitTest1
+    [TestFixture]
+    public class KarateTests
     {
-        [TestMethod]
+        [Test]
         [TestCase("one, two, three, four, five", Result = 19)]
         [TestCase("one, two, three, four, five, six, seven, eight, nine, ten", Result = 39)]
         public int TestTheKarate(string test)
@@ -21,6 +16,7 @@
             return kataCalculator.Calculate();
         }
 
+        [Test]
         [TestCase("thirty-one, thirty-two", Result = 18)]
         public int TestTheKarateThirties(string test)
         {
@@ -28,7 +24,6 @@
             return kataCalculator.Calculate();
         }
 
-        [TestMethod]
         [TestCase("one hundred, one hundred and one", Result = 26)]
         [TestCase("one hundred, one hundred and one, one hundred and two, one hundred and three, one hundred and four, one hundred and five", Result = 94)]
         public int TestTheKarateWithOneHundred(string test)
@@ -39,7 +34,6 @@
             return result;
         }
 
-        [TestMethod]
         [TestCase("three hundred and forty-two", Result = 23)]
         public int TestTheKarateThreeHundreds(string test)
         {
@@ -48,7 +42,6 @@
         }
 
 
-        [TestMethod]
         [TestCase("one thousand", Result = 11)]
         public int TestTheKarateWithOneThousand(string test)
         {
