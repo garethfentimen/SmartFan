@@ -5,12 +5,12 @@
 
     public class TeamRepository : ITeamRepository
     {
-        private readonly DatabaseContext context;
+        //private readonly DatabaseContext context;
 
-        public TeamRepository(DatabaseContext context)
-        {
-            this.context = context;
-        }
+        //public TeamRepository(DatabaseContext context)
+        //{
+        //    this.context = context;
+        //}
 
         Team[] teams = new Team[] 
         { 
