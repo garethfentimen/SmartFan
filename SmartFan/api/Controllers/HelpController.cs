@@ -1,10 +1,10 @@
-﻿namespace SmartWatchIdea.api.Controllers
+﻿namespace SmartFan.api.Controllers
 {
     using System.Net;
     using System.Net.Http;
     using System.Web.Http;
 
-    using SmartWatchIdea.api.Extensions;
+    using SmartFan.api.Extensions;
 
     public class HelpController : ApiController
     {

@@ -5,7 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace SmartWatchIdea.api.Controllers
+namespace SmartFan.api.Controllers
 {
     public class FixtureController : ApiController
     {

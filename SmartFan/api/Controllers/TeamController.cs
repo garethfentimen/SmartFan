@@ -1,4 +1,4 @@
-﻿namespace SmartWatchIdea.api.Controllers
+﻿namespace SmartFan.api.Controllers
 {
     using System.Web.Http;
 
@@ -8,9 +8,9 @@
     {
         private readonly ITeamRepository teamRepository;
 
-        public TeamController()
+        public TeamController(ITeamRepository teamRepository)
         {
-            this.teamRepository = new TeamRepository(new DatabaseContext());
+            this.teamRepository = teamRepository;
         }
 
         [HttpGet]

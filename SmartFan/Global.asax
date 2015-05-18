@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="SmartWatchIdea.Global" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="SmartFan.Global" Language="C#" %>

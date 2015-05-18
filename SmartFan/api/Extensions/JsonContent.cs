@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using Newtonsoft.Json;
 
-namespace SmartWatchIdea.api.Extensions
+namespace SmartFan.api.Extensions
 {
     public class JsonContent : HttpContent
     {
