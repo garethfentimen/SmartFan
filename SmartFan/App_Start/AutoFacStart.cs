@@ -1,13 +1,13 @@
 ﻿namespace SmartFan
 {
     using System.Reflection;
-    using System.Web.Http;
     using System.Web.Mvc;
 
     using Autofac;
     using Autofac.Integration.Mvc;
 
     using Model.Persistence;
+    using Model.Persistence.DataStore;
 
     public class AutoFacMvcStart
     {
@@ -25,9 +25,11 @@
         private static void RegisterDependencies(ContainerBuilder builder)
         {
             // Register your MVC controllers.
-            builder.RegisterControllers(typeof(SmartFan.Global).Assembly);
+            builder.RegisterControllers(typeof(Global).Assembly);
 
             builder.RegisterType<TeamRepository>().As<ITeamRepository>();
+
+            builder.RegisterType<DatabaseContext>().As<IDatabaseContext>().InstancePerRequest();
 
             // OPTIONAL: Register model binders that require DI.
             builder.RegisterModelBinders(Assembly.GetExecutingAssembly());

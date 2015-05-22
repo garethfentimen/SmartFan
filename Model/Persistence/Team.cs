@@ -1,8 +1,11 @@
 ﻿namespace Model.Persistence
 {
+    using MongoDB.Bson;
+
     public class Team
     {
-        public int ID { get; set; }
+        // ReSharper disable once InconsistentNaming
+        public int _id { get; set; }
 
         public string Name { get; set; } 
     }

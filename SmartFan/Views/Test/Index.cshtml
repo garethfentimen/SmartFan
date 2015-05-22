@@ -16,6 +16,13 @@
 <div>
     Call out to teams with GET method:
     <div id="teams"></div>
+
+    <form enctype="application/x-www-form-urlencoded" method="POST">
+        <input id="teamName" type="text" value="" name="teamName"/>
+        <input type="button" value="Add Team" onclick=" window.send() "/>
+    </form>
+
+    <div>Added <span id="teamAdded"></span> OK!!</div>
 </div>
 </body>
 </html>

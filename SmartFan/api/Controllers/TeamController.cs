@@ -1,5 +1,6 @@
 ﻿namespace SmartFan.api.Controllers
 {
+    using System.Threading.Tasks;
     using System.Web.Http;
 
     using Model.Persistence;
@@ -14,9 +15,18 @@
         }
 
         [HttpGet]
-        public IHttpActionResult Get()
+        public async Task<IHttpActionResult> Get()
         {
-            return this.Ok(this.teamRepository.AllTeams());
+            var teams = await this.teamRepository.AllTeams();
+            return this.Ok(teams);
+        }
+
+        [HttpPost]
+        [Route("api/team/{teamName}")]
+        public async Task<IHttpActionResult> Post(string teamName)
+        {
+            var team = await this.teamRepository.AddTeam(teamName);
+            return this.Ok(team);
         }
     }
 }

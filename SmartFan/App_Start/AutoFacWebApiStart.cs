@@ -7,6 +7,7 @@
     using Autofac.Integration.WebApi;
 
     using Model.Persistence;
+    using Model.Persistence.DataStore;
 
     public class AutoFacWebApiStart
     {
@@ -26,6 +27,8 @@
 
             // ...or you can register individual controlllers manually.
             builder.RegisterType<TeamRepository>().As<ITeamRepository>();
+
+            builder.RegisterType<DatabaseContext>().As<IDatabaseContext>().InstancePerRequest();
         }
     }
 }

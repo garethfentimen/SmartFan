@@ -1,9 +1,12 @@
 ﻿namespace Model.Persistence
 {
-    using System.Linq;
+    using System.Collections.Generic;
+    using System.Threading.Tasks;
 
     public interface ITeamRepository
     {
-        IQueryable<Team> AllTeams();
+        Task<List<Team>> AllTeams();
+
+        Task<Team> AddTeam(string teamName);
     }
 }
